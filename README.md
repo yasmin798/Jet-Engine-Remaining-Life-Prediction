@@ -63,8 +63,6 @@ A threshold of 40 catches 84% of engines that are within 30 cycles of failure, a
 - **Engine age (`cycle`) is the most important feature**, followed by smoothed readings of sensors s4, s9, s11, s15 and s14 (permutation importance).
 - **The model is slightly optimistic near failure.** For engines within 30 cycles of failure, the mean error is +8.4 cycles (it predicts a bit more life than remains), although MAE there is 8.9 cycles. Overall, 60% of predictions are later than the truth. For safety, use a higher alert threshold.
 - **Worst misses** are engines whose degradation looks atypical, e.g. engine 41 (true RUL 18, predicted 62).
-<img width="1917" height="787" alt="Screenshot 2026-11-14 214550" src="https://github.com/user-attachments/assets/d361a1fe-2e6c-45c5-b043-7cb8c86c9ad0" />
-<img width="1917" height="787" alt="Screenshot 2026-11-14 214550" src="https://github.com/user-attachments/assets/eebc47d6-d951-476c-b8c1-93bc72dfc78c" />
 
 ## Repository structure
 
